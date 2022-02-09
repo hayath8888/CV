@@ -1,0 +1,33 @@
+
+  body {
+    background-color: palegreen;
+  }
+
+  hr {
+  border-style: none;
+  border-top-style:dotted;
+  border-top-width: thick;
+  width:50px;
+
+  border-color: brown;
+
+
+  }
+  h3{
+    color: #000080;
+    font-size: 30px;
+  }
+  img:active{
+   background-color: blue;
+  }
+  .education{
+    display: inline-grid;
+    border-style: inset;
+    border-color: red;
+    border-width: 6px;
+  }
+
+  /*
+  form{
+
+  }/*
