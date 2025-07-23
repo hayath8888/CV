@@ -41,8 +41,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18.20.8'
-      - run: npm install
-      - run: npm run build
+      
 
       - name: Build And Deploy
         id: builddeploy
