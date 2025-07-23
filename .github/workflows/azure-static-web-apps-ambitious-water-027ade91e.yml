@@ -34,11 +34,7 @@ jobs:
                const coredemo = require('@actions/core')
                return await coredemo.getIDToken()
            result-encoding: string
-      - name: node version
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18.20.8'
-      
+     
 
       - name: Build And Deploy
         id: builddeploy
